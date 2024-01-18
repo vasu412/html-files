@@ -1,0 +1,94 @@
+body:not(p,ol,li,h2){
+    background-color: rgb(235, 210, 214);
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-repeat: no-repeat;
+    background-image: url(https://i.pinimg.com/736x/e1/c2/3a/e1c23ac34847740f672717c89a62ae37.jpg);
+    height: 300px;
+    width: 100%;
+    box-shadow: 0.5px 0.5px 5px  black;
+    background-position: center;
+    background-size: cover;
+}
+
+input{
+    position:sticky;
+    top:0;
+    padding:22px 14px;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-left: 210px;
+    background-color: rgb(107, 33, 33);
+    border: 0;
+    color: white;
+}
+
+input:focus{
+    background-color: rgba(107, 33, 33, 0.858);
+    outline: none;
+}
+
+main{
+    height: 200px;
+    width:1400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 40px;
+}
+
+div img {
+    border-radius: 100px;
+    height: 150px;
+    width: 100%;
+    box-shadow: 0px 8px 8px  rgba(0, 0, 0, 0.96);
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 180px;
+    width: 150px;
+}
+
+h6{
+    font-size: 15.5px;
+    margin-top: 15px;
+    text-align: center;
+    background-color: transparent;
+}
+
+section{
+    width: 85.5%;
+    margin: 70px auto;
+    border: 1px;
+    border-radius: 5px;
+    background-color: rgb(165, 42, 42, 0.3);
+    padding: 30px;
+    box-shadow: 0 0 8px brown;
+}
+
+h2,p,ol ,li{
+    margin: 0;
+    padding: 0;
+    color: rgb(152, 38, 38);
+}
+
+li{
+    margin-bottom: 12px;
+    padding-left: 5px;
+}
+
+div img:hover{
+    box-shadow: 0px 14px 14px  rgba(0, 0, 0, 0.96);
+    height: 155px;
+    width: 155px;
+}
