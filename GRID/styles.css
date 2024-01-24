@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(20, 30, 40);
+}
+
+.head{
+    text-align: center;
+    color: orangered;
+}
+
+.head h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 120px;
+    /* font-weight: bold; */
+}
+
+.head h3{
+    font-family: 'Baskervville', serif;
+    font-size: 37px;
+}
+
+.main{
+    display: grid;
+    grid-template-areas: 
+    "a b e"
+    "a c e"
+    "a d e"
+    ;
+    column-gap: 30px;
+    font-family: 'Baskervville', serif;
+    margin: 30px 20px;
+    height: fit-content;
+    color: white;
+    font-size: 28px;
+    text-align:justify;
+}
+
+.para1{
+    grid-area: a;
+}
+
+.para2{
+    grid-area: b;
+    text-align: justify;
+    width: 480px;
+}
+.para3{
+    grid-area: c;
+    color: #00beef;
+    font-size: 36px;
+    text-align: center;
+
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    padding: 16px 0;
+    margin: 20px 0;
+    font-family: "Raleway", sans-serif;
+    width: 480px;
+}
+.para4{
+    grid-area: d;
+    width: 480px;
+}
+.para5{
+    grid-area: e;
+}
+
+.font{
+    font-family: "Raleway", sans-serif;
+}
+
+.section{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin:20px
+}
+
+.tags{
+    color:gray;
+}
+
+.tags a{
+    /* display: inline; */
+    text-decoration: none;
+    color: white;
+}
+
+.history{
+    display: grid;
+    margin: 30px;
+    grid-template-areas: 
+    "a b b"
+    "a c d"
+    "a e e"
+    ;
+    column-gap: 30px;
+}
+
+.a{
+    grid-area: a;
+    width: 480px;
+    /* height: 100vh; */
+    text-align: justify;
+}
+
+.a span{
+    font-size: 28px;
+}
+.a h1{
+    margin-top: 30px;
+}
+.b{
+    grid-area: b;
+}
+.c{
+    grid-area: c;
+}
+.c2{
+    color: #00beef;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+.d{
+    grid-area: d;
+}
+.e{
+    grid-area: e;
+}
+
+.history section h1{
+    color: #00beef;
+}
+
+.history section span{
+    color: white;
+    font-family: 'Baskervville', serif;
+}
+
+.b img, .e img{
+    height: 450px;
+    width: 880px;
+    margin: 30px 0;
+}
+
+.d{
+    margin-top: 70px;
+    margin-right: 20px;
+    font-size: 34px;
+    font-weight: 200;
+    line-height: 42px;
+}
+
+.c img{
+    height:600px;
+    width: 580px;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    margin-right:80px;
+    justify-content: end;
+}
